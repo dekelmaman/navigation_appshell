@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		097A1D6B1CB2E05FACFB8426 /* POCAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF513A1D8D6BF1C5DAE84A55 /* POCAppApp.swift */; };
+		2B064E8390B8559FD9F9BC26 /* NotesListFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 354D2B1949FDFFB299DCFFAF /* NotesListFeature */; };
+		3190E983AEF1F4172993DC2F /* AppNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFECBD5ABA8311B2160B91D /* AppNavigator.swift */; };
+		385D018FB425E52C28E846CF /* NavigationRegistry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B419435B02B20AA7E4BBAA /* NavigationRegistry.swift */; };
+		42C3E8AC8445FD61DE966089 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8191459120B3A4061A8BE5 /* RootView.swift */; };
+		5BF6516816C4FCE8BC513A07 /* AppContracts in Frameworks */ = {isa = PBXBuildFile; productRef = 46092C633897826AB48085F3 /* AppContracts */; };
+		75E9251C294F06302E96BC7E /* ContactsDataRegistry.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA93BAEC0857DAD0CF26666 /* ContactsDataRegistry.swift */; };
+		BBB8435A7F4B8E4FC596B8AC /* NoteDetailsFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 9148621CA6A2EDFE932C8915 /* NoteDetailsFeature */; };
+		D116B3FB8D9B93459389CD31 /* ContactsContracts in Frameworks */ = {isa = PBXBuildFile; productRef = 2E2AD9A4FE895EB3CF778FDB /* ContactsContracts */; };
+		D71F590A71614B288DD9C7C4 /* Contacts in Frameworks */ = {isa = PBXBuildFile; productRef = AAD4BF9FCCA95E7FFEB8A950 /* Contacts */; };
+		D862F1F61EE1DA8B5C547925 /* AppShellComposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE60DB3C41C2F57D093116A /* AppShellComposition.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08EEF65D094943D4F1B03105 /* NotesPackage */ = {isa = PBXFileReference; lastKnownFileType = folder; name = NotesPackage; path = Packages/NotesPackage; sourceTree = SOURCE_ROOT; };
+		145F3C61D7B3DD7A1F4057B7 /* ContactsPackage */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ContactsPackage; path = Packages/ContactsPackage; sourceTree = SOURCE_ROOT; };
+		36A7DAA9C2238E0BA73B739A /* POCApp.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = POCApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52B419435B02B20AA7E4BBAA /* NavigationRegistry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationRegistry.swift; sourceTree = "<group>"; };
+		5F8191459120B3A4061A8BE5 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		6DE60DB3C41C2F57D093116A /* AppShellComposition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppShellComposition.swift; sourceTree = "<group>"; };
+		BAA93BAEC0857DAD0CF26666 /* ContactsDataRegistry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsDataRegistry.swift; sourceTree = "<group>"; };
+		DCFECBD5ABA8311B2160B91D /* AppNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigator.swift; sourceTree = "<group>"; };
+		EEC159F47BD685F7B2B2AF03 /* AppContracts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AppContracts; path = Packages/AppContracts; sourceTree = SOURCE_ROOT; };
+		EF513A1D8D6BF1C5DAE84A55 /* POCAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POCAppApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64C399438D2EE99655ECC2E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BF6516816C4FCE8BC513A07 /* AppContracts in Frameworks */,
+				D71F590A71614B288DD9C7C4 /* Contacts in Frameworks */,
+				D116B3FB8D9B93459389CD31 /* ContactsContracts in Frameworks */,
+				2B064E8390B8559FD9F9BC26 /* NotesListFeature in Frameworks */,
+				BBB8435A7F4B8E4FC596B8AC /* NoteDetailsFeature in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11A59EE9B183A38EDA2F5273 /* POCApp */ = {
+			isa = PBXGroup;
+			children = (
+				DCFECBD5ABA8311B2160B91D /* AppNavigator.swift */,
+				6DE60DB3C41C2F57D093116A /* AppShellComposition.swift */,
+				BAA93BAEC0857DAD0CF26666 /* ContactsDataRegistry.swift */,
+				52B419435B02B20AA7E4BBAA /* NavigationRegistry.swift */,
+				EF513A1D8D6BF1C5DAE84A55 /* POCAppApp.swift */,
+				5F8191459120B3A4061A8BE5 /* RootView.swift */,
+			);
+			path = POCApp;
+			sourceTree = "<group>";
+		};
+		33754C52E01AB83B63F32FC1 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				EEC159F47BD685F7B2B2AF03 /* AppContracts */,
+				145F3C61D7B3DD7A1F4057B7 /* ContactsPackage */,
+				08EEF65D094943D4F1B03105 /* NotesPackage */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		72B2449C05E7F1B3B8883291 = {
+			isa = PBXGroup;
+			children = (
+				33754C52E01AB83B63F32FC1 /* Packages */,
+				11A59EE9B183A38EDA2F5273 /* POCApp */,
+				DB566CF1D1772A7687B185D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB566CF1D1772A7687B185D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36A7DAA9C2238E0BA73B739A /* POCApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD3DFC4E7758B7806F9A2850 /* POCApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88B01AC42CF2FA5CA91314F4 /* Build configuration list for PBXNativeTarget "POCApp" */;
+			buildPhases = (
+				5A9F6552F118123989BF4CCE /* Sources */,
+				64C399438D2EE99655ECC2E2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = POCApp;
+			packageProductDependencies = (
+				46092C633897826AB48085F3 /* AppContracts */,
+				AAD4BF9FCCA95E7FFEB8A950 /* Contacts */,
+				2E2AD9A4FE895EB3CF778FDB /* ContactsContracts */,
+				354D2B1949FDFFB299DCFFAF /* NotesListFeature */,
+				9148621CA6A2EDFE932C8915 /* NoteDetailsFeature */,
+			);
+			productName = POCApp;
+			productReference = 36A7DAA9C2238E0BA73B739A /* POCApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7793813A65C0C55FBF0FF5E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = AB5899CCC7772A4C920F9692 /* Build configuration list for PBXProject "POCApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 72B2449C05E7F1B3B8883291;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				3C85E25505BDD01B4BBC26CF /* XCLocalSwiftPackageReference "Packages/AppContracts" */,
+				B50C58F25947D45D9FD7743C /* XCLocalSwiftPackageReference "Packages/ContactsPackage" */,
+				F993A6537F911DFB3BD877E8 /* XCLocalSwiftPackageReference "Packages/NotesPackage" */,
+			);
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD3DFC4E7758B7806F9A2850 /* POCApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A9F6552F118123989BF4CCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3190E983AEF1F4172993DC2F /* AppNavigator.swift in Sources */,
+				D862F1F61EE1DA8B5C547925 /* AppShellComposition.swift in Sources */,
+				75E9251C294F06302E96BC7E /* ContactsDataRegistry.swift in Sources */,
+				385D018FB425E52C28E846CF /* NavigationRegistry.swift in Sources */,
+				097A1D6B1CB2E05FACFB8426 /* POCAppApp.swift in Sources */,
+				42C3E8AC8445FD61DE966089 /* RootView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		130319EA720C1918ED9FCEC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		6C2EB17D470E26413354E618 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.offsite.poc.POCApp;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		760AEC8CBCECF91EFBF65945 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BD31DDE205D62E38929D6CD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.offsite.poc.POCApp;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88B01AC42CF2FA5CA91314F4 /* Build configuration list for PBXNativeTarget "POCApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C2EB17D470E26413354E618 /* Debug */,
+				BD31DDE205D62E38929D6CD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AB5899CCC7772A4C920F9692 /* Build configuration list for PBXProject "POCApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				760AEC8CBCECF91EFBF65945 /* Debug */,
+				130319EA720C1918ED9FCEC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		3C85E25505BDD01B4BBC26CF /* XCLocalSwiftPackageReference "Packages/AppContracts" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/AppContracts;
+		};
+		B50C58F25947D45D9FD7743C /* XCLocalSwiftPackageReference "Packages/ContactsPackage" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/ContactsPackage;
+		};
+		F993A6537F911DFB3BD877E8 /* XCLocalSwiftPackageReference "Packages/NotesPackage" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/NotesPackage;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2E2AD9A4FE895EB3CF778FDB /* ContactsContracts */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ContactsContracts;
+		};
+		354D2B1949FDFFB299DCFFAF /* NotesListFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NotesListFeature;
+		};
+		46092C633897826AB48085F3 /* AppContracts */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AppContracts;
+		};
+		9148621CA6A2EDFE932C8915 /* NoteDetailsFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NoteDetailsFeature;
+		};
+		AAD4BF9FCCA95E7FFEB8A950 /* Contacts */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Contacts;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7793813A65C0C55FBF0FF5E1 /* Project object */;
+}
